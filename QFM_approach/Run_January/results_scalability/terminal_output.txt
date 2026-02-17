@@ -1,5 +1,62 @@
 Dataset loaded successfully! with shape: (171, 1203)
 
+run with number of features: 20
+Final mapping of logical qubits to physical qubits: [62, 63, 64, 65, 77, 83, 84, 85, 86, 87, 91, 92, 97, 98, 107, 108, 109, 110, 111, 118]
+Order of features in encoding: [3, 18, 16, 5, 0, 4, 7, 14, 10, 11, 17, 19, 9, 15, 13, 1, 12, 8, 2, 6]
+Number of active 2-local interactions: 38
+Depth: 600
+dt (s): 4e-09
+SWAP = 0
+2q-depth = 56
+1q-depth = 544
+2q pairs outside the coupling map = 0
+2q gate types: Counter({'cz': 76})
+Total 2q gates = 76
+Qubits involved in 2q = 20 (of 156)
+Average 2q per qubit (involved) = 7.6
+Average 2q per qubit (all) = 0.9743589743589743
+Top loaded: [(85, 12), (109, 12), (63, 8), (64, 8), (65, 8), (77, 8), (84, 8), (86, 8), (87, 8), (91, 8)]
+Saved job ID in: results_scalability/ibm_pittsburgh_features_20_T_0.005/job_id.txt
+Saved 2-qubit pairs in: results_scalability/ibm_pittsburgh_features_20_T_0.005/pairs_2q.json
+
+run with number of features: 40
+Final mapping of logical qubits to physical qubits: [48, 49, 50, 51, 58, 62, 63, 64, 65, 71, 72, 73, 74, 77, 79, 83, 84, 85, 86, 87, 90, 91, 92, 93, 94, 95, 97, 98, 99, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 118]
+Order of features in encoding: [39, 37, 8, 20, 4, 23, 10, 26, 35, 24, 12, 16, 34, 11, 2, 27, 19, 1, 29, 0, 7, 13, 30, 3, 31, 15, 6, 18, 25, 17, 28, 9, 14, 32, 21, 36, 38, 5, 22, 33]
+Number of active 2-local interactions: 80
+Depth: 808
+dt (s): 4e-09
+SWAP = 0
+2q-depth = 76
+1q-depth = 732
+2q pairs outside the coupling map = 0
+2q gate types: Counter({'cz': 160})
+Total 2q gates = 160
+Qubits involved in 2q = 40 (of 156)
+Average 2q per qubit (involved) = 8.0
+Average 2q per qubit (all) = 2.051282051282051
+Top loaded: [(73, 12), (85, 12), (91, 12), (93, 12), (107, 12), (109, 12), (111, 12), (49, 8), (50, 8), (51, 8)]
+Saved job ID in: results_scalability/ibm_pittsburgh_features_40_T_0.005/job_id.txt
+Saved 2-qubit pairs in: results_scalability/ibm_pittsburgh_features_40_T_0.005/pairs_2q.json
+
+run with number of features: 60
+Final mapping of logical qubits to physical qubits: [46, 47, 48, 49, 50, 51, 58, 61, 62, 63, 64, 65, 71, 72, 73, 74, 77, 79, 83, 84, 85, 86, 87, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 118, 119, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 138]
+Order of features in encoding: [42, 6, 3, 18, 36, 32, 7, 50, 14, 22, 43, 28, 37, 39, 20, 5, 9, 13, 0, 15, 53, 57, 59, 58, 25, 31, 30, 46, 48, 24, 55, 1, 2, 49, 40, 45, 10, 35, 11, 56, 12, 19, 33, 17, 26, 29, 34, 52, 38, 54, 8, 44, 41, 51, 4, 23, 27, 47, 21, 16]
+Number of active 2-local interactions: 118
+Depth: 1008
+dt (s): 4e-09
+SWAP = 0
+2q-depth = 96
+1q-depth = 912
+2q pairs outside the coupling map = 0
+2q gate types: Counter({'cz': 236})
+Total 2q gates = 236
+Qubits involved in 2q = 60 (of 156)
+Average 2q per qubit (involved) = 7.866666666666666
+Average 2q per qubit (all) = 3.0256410256410255
+Top loaded: [(85, 12), (91, 12), (93, 12), (103, 12), (107, 12), (109, 12), (111, 12), (113, 12), (129, 12), (131, 12)]
+Saved job ID in: results_scalability/ibm_pittsburgh_features_60_T_0.005/job_id.txt
+Saved 2-qubit pairs in: results_scalability/ibm_pittsburgh_features_60_T_0.005/pairs_2q.json
+
 run with number of features: 80
 Final mapping of logical qubits to physical qubits: [17, 26, 27, 28, 29, 30, 38, 46, 47, 48, 49, 50, 51, 57, 58, 66, 67, 68, 71, 72, 73, 74, 77, 79, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 118, 119, 127, 128, 129, 130, 131, 132, 133, 134, 135, 137, 138, 139, 147, 148, 149, 150, 151, 152, 153, 154, 155]
 Order of features in encoding: [55, 30, 10, 68, 22, 74, 17, 34, 1, 36, 24, 71, 63, 39, 2, 29, 67, 64, 33, 47, 57, 12, 13, 9, 14, 56, 51, 45, 75, 26, 62, 73, 35, 20, 18, 0, 59, 19, 61, 50, 28, 40, 52, 15, 65, 60, 25, 5, 72, 41, 31, 78, 76, 16, 46, 4, 70, 66, 54, 38, 43, 42, 69, 27, 49, 3, 6, 32, 23, 44, 11, 53, 48, 8, 58, 37, 21, 77, 79, 7]
@@ -20,21 +77,21 @@ Saved job ID in: results_scalability/ibm_pittsburgh_features_80_T_0.005/job_id.t
 Saved 2-qubit pairs in: results_scalability/ibm_pittsburgh_features_80_T_0.005/pairs_2q.json
 
 run with number of features: 100
-Final mapping of logical qubits to physical qubits: [17, 26, 27, 28, 29, 30, 38, 39, 46, 47, 48, 49, 50, 51, 53, 54, 55, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 118, 119, 127, 128, 129, 130, 131, 132, 133, 134, 135, 137, 138, 139, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155]
-Order of features in encoding: [0, 36, 98, 43, 58, 61, 96, 77, 92, 42, 17, 16, 48, 20, 78, 60, 89, 66, 12, 93, 25, 47, 64, 5, 14, 3, 41, 6, 23, 69, 1, 76, 19, 46, 11, 85, 33, 65, 49, 82, 90, 56, 44, 67, 29, 99, 86, 28, 62, 8, 54, 59, 97, 95, 71, 40, 4, 79, 70, 55, 80, 2, 15, 75, 72, 34, 38, 32, 24, 63, 83, 22, 31, 53, 51, 7, 91, 84, 37, 88, 57, 73, 68, 9, 94, 26, 27, 81, 35, 39, 18, 52, 74, 21, 30, 50, 45, 87, 13, 10]
-Number of active 2-local interactions: 212
-Depth: 1118
+Final mapping of logical qubits to physical qubits: [29, 30, 38, 46, 47, 48, 49, 50, 51, 58, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 118, 119, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155]
+Order of features in encoding: [66, 25, 42, 60, 31, 87, 4, 75, 11, 46, 63, 56, 89, 5, 10, 13, 74, 88, 96, 80, 49, 82, 3, 41, 51, 44, 78, 47, 1, 0, 91, 28, 12, 38, 59, 21, 14, 71, 65, 18, 99, 48, 67, 35, 20, 77, 81, 97, 45, 8, 53, 29, 26, 23, 6, 69, 27, 98, 7, 95, 57, 16, 34, 19, 62, 83, 17, 39, 85, 24, 33, 9, 72, 76, 22, 2, 64, 84, 70, 86, 40, 54, 90, 93, 55, 36, 58, 43, 79, 61, 94, 73, 15, 32, 68, 52, 92, 37, 30, 50]
+Number of active 2-local interactions: 208
+Depth: 1276
 dt (s): 4e-09
 SWAP = 0
-2q-depth = 108
-1q-depth = 1010
+2q-depth = 124
+1q-depth = 1152
 2q pairs outside the coupling map = 0
-2q gate types: Counter({'cz': 424})
-Total 2q gates = 424
+2q gate types: Counter({'cz': 416})
+Total 2q gates = 416
 Qubits involved in 2q = 100 (of 156)
-Average 2q per qubit (involved) = 8.48
-Average 2q per qubit (all) = 5.435897435897436
-Top loaded: [(27, 12), (29, 12), (47, 12), (49, 12), (61, 12), (65, 12), (67, 12), (69, 12), (71, 12), (73, 12)]
+Average 2q per qubit (involved) = 8.32
+Average 2q per qubit (all) = 5.333333333333333
+Top loaded: [(49, 12), (61, 12), (65, 12), (71, 12), (73, 12), (81, 12), (83, 12), (85, 12), (87, 12), (89, 12)]
 Saved job ID in: results_scalability/ibm_pittsburgh_features_100_T_0.005/job_id.txt
 Saved 2-qubit pairs in: results_scalability/ibm_pittsburgh_features_100_T_0.005/pairs_2q.json
 

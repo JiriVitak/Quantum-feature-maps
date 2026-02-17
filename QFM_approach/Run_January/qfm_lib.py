@@ -142,7 +142,7 @@ def build_quantum_features_all(
     return Xq_all, pairs_2q
 
 def build_quantum_features_all_job(
-    X_q_all, J_dict, perm, phys_nodes, tau, m, backend, estimator, simulation=False
+    X_q_all, J_dict, perm, phys_nodes, tau, m, backend, estimator, optimization_lvl, simulation=False
 ):
     """
     Generates the quantum feature matrix Xq_all (N x n_q) in A SINGLE BATCH.
@@ -169,13 +169,13 @@ def build_quantum_features_all_job(
             qc_param,
             backend=backend,
             initial_layout=initial_layout,
-            optimization_level=0,
+            optimization_level=optimization_lvl,
             seed_transpiler=SEED,
             routing_method="none",
         )
     else:
         pm = generate_preset_pass_manager(
-            optimization_level=0, backend=backend, seed_transpiler=SEED
+            optimization_level=optimization_lvl, backend=backend, seed_transpiler=SEED
         )
         qc_t = pm.run(qc_param)
 
